@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:layout_width="fill_parent"
+			android:id="@+id/top_layout" android:layout_height="50dp"
+			android:gravity="center" android:layout_alignTop="@+id/home_layout">
+			<Spinner android:layout_width="50dp" android:id="@+id/categorySpinner"
+				android:prompt="@string/category_prompt" android:layout_height="wrap_content"
+				android:layout_weight="1" ></Spinner>
+			<LinearLayout android:layout_width="wrap_content"
+				android:id="@+id/btn_layout" android:layout_height="wrap_content"
+				android:gravity="center" android:layout_alignTop="@+id/home_layout" android:visibility="gone">
+				<TextView android:text="" android:id="@+id/displayLbl"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<Button android:text="" android:id="@+id/playBtn"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/media_playback_start2"></Button>
+				<Button android:text="" android:id="@+id/stopBtn"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/media_playback_stop2"></Button>
+			</LinearLayout>
+			<Spinner android:layout_width="50dp" android:id="@+id/orderSpinner"
+				android:prompt="@string/order_prompt" android:layout_height="wrap_content"
+				android:layout_weight="1"></Spinner>
+				<Spinner android:layout_width="1dp" android:id="@+id/filterSpinner"
+				android:prompt="@string/filter_prompt" android:layout_height="wrap_content"
+				android:layout_weight="1" android:visibility="gone"></Spinner>
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:id="@+id/search_layout" android:layout_height="wrap_content"
+			>
+				<EditText android:id="@+id/searchTxt" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" >
+			<requestFocus></requestFocus>
+		</EditText>
+				<Button android:text="" android:id="@+id/searchBtn" 
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/zoom_cn_48"></Button>
+		</LinearLayout>
+		<ListView android:id="@+android:id/list"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:transcriptMode="normal" android:stackFromBottom="false"></ListView>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/downloadPanel"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:background="#FFF"
+		android:gravity="center">
+		<ProgressBar android:id="@+id/progressBar1"
+			android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge"
+			android:layout_width="wrap_content"></ProgressBar>
+		<TextView android:text="@string/wait" android:id="@+id/textView1"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="center" android:textColor="#000" android:textSize="20dp"></TextView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/ad_layout" android:layout_height="wrap_content"
+		android:gravity="bottom" android:layout_alignParentBottom="true"
+		android:layout_alignBottom="@+id/home_layout">
+	</LinearLayout>
+</RelativeLayout>

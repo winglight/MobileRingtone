@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is at /res/layout/list_item.xml -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" android:background="#FFF" >
+    <TableRow>
+    <ImageView android:layout_width="wrap_content" android:src="@drawable/badge_tick" android:layout_height="wrap_content" android:id="@+id/icon" 
+    android:layout_alignParentLeft="true"></ImageView>
+	
+	<TextView android:id="@+id/row_title" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textColor="#000" 
+		android:textSize="20dp" />
+		<TextView android:id="@+id/row_used" android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:textColor="#999999"
+		android:textSize="15dp" android:layout_alignParentRight="true" android:gravity="right|bottom"/>
+</TableRow>
+</TableLayout>

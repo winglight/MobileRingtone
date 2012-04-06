@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<group android:id="@+id/ANCHOR_MENU">
+		<item android:id="@+id/menu_play_ringtone" android:title="@string/playThisRingtone" />
+		<item android:id="@+id/menu_set_ringtone" android:title="@string/setRingtone" />
+		<item android:id="@+id/menu_set_message_ringtone" android:title="@string/setMessageRingtone" />
+		<item android:id="@+id/menu_set_ringtone_contact" android:title="@string/setRingtoneContact" />
+		<item android:id="@+id/menu_send_ringtone_mms" android:title="@string/sendRingtoneByMms" />
+	</group>
+ 
+</menu>

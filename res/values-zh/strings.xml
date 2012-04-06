@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">天天美女相册</string>
+    <string name="app_name_suffix">天天美女相册 - %1$s</string>
+    <string name="local">本地</string>
+    <string name="web">网络</string>
+    <string name="mainpage">主页</string>
+    <string name="source_prompt">天天美女系列</string>
+    <string name="backMain">我确定!</string>
+    <string name="quitMain">退出</string>
+    <string name="aboutTitle">帮助</string>
+    <string name="sureTxt">我已满18岁，并且同意以上约定.</string>
+    <string name="downloadSingleImaage">下载这张照片</string>
+    <string name="downloadAllImaage">下载此页所有图片</string>
+    <string name="saveThisLink">保存这个链接</string>
+    <string name="saveLiknInclNextLevel">保存这个链接以及下一级链接</string>
+    <string name="browseFavorite">收藏</string>
+    <string name="sendEmail">发送 E-mail</string>
+    <string name="copyEmailAddr">拷贝E-mail地址</string>
+    <string name="addLinkFavorite">收藏这个链接</string>
+    <string name="addLinkFavoriteSuccess">已成功收藏这个链接</string>
+    <string name="addLinkFavoriteFail">链接添加失败，请稍后再试</string>
+    <string name="sendImageByMms">与朋友分享这张图</string>
+    <string name="sendMmsSubject">请发给我系列 4 - 7 的账号</string>
+    <string name="sendMmsBody">请发给我系列 4 - 7 的账号. \n来自 天天美女</string>
+    <string name="startDownload">开始下载...</string>
+    <string name="stopDownload">已下载完成...</string>
+    <string name="noImages">啊, 没找到图片. 换一个试试看吧.</string>
+    <string name="waitOriginal">正在下载原始大图片，请稍候...</string>
+    <string name="failDownload">下载图片失败了, 原因是: %1$s</string>
+    <string name="alreadyFirst">已经是第一张图片...</string>
+    <string name="alreadyLast">已经是最后一张图片...</string>
+    <string name="alreadyFirstPost">已经是第一个贴图...</string>
+    <string name="alreadyLastPost">已经是最后一个贴图...</string>
+    <string name="waitTitle">更新列表</string>
+	<string name="wait">正在下载贴图列表, 请稍候...</string>
+	<string name="more">更多贴图 ...</string>
+	<string name="addFavoriteSuccess">贴图已经成功加入到您的收藏夹中.</string>
+	<string name="waitPostTitle">下载</string>
+	<string name="waitPost">正在下载贴图, 请稍候...</string>
+	<string name="resetSuccess">刷新列表成功.</string>
+	<string name="resetFail">刷新列表失败.</string>
+	<string name="isCached">设置使用缓存.</string>
+	<string name="isNotCached">设置不使用缓存.</string>
+	<string name="cached">缓存</string>
+	<string name="noCached">无缓存</string>
+	<string name="grid">网格</string>
+	<string name="list">列表</string>
+	<string name="setting">设置</string>
+	<string name="account">账号:</string>
+	<string name="password">密码:</string>
+	<string name="save">保存</string>
+	<string name="getAccount">通过E-mail获取免费账号</string>
+	<string name="saveSuccess">已成功保存账号.</string>
+	<string name="accountTitle">系列 4 - 7 的账号设置</string>
+	<string name="accountReminder">你需要在菜单"设置"中设置系列 4 - 7 的账号,这样可以看到更多图片.</string>
+    <string-array name="source">
+    	<item>选择一个系列...</item>
+		<!-- <item>系列 1 (H)</item>
+		<item>系列 2 (H)</item>
+		<item>系列 3 (H)</item>
+		<item>系列 4 (H | Porn)</item>
+		<item>系列 5 (H | Album)</item>
+		<item>系列 6 (H | Peep)</item>
+		<item>系列 7 (H | Comic)</item> -->
+		<item>系列 8</item>
+		<item>系列 9</item>
+		<item>系列 10</item>
+		<item>系列 11</item>
+		<item>系列 12 (Large)</item>
+		<item>系列 13</item>
+	</string-array>
+</resources>

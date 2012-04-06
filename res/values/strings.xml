@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Daily Hot Beauty</string>
+    <string name="app_name_suffix">Daily Hot Beauty - %1$s</string>
+    <string name="local">Local</string>
+    <string name="web">Web</string>
+    <string name="mainpage">Main Page</string>
+    <string name="source_prompt">Daily Beauty Series</string>
+    <string name="backMain">I am sure!</string>
+    <string name="quitMain">Quit</string>
+    <string name="aboutTitle">Help</string>
+    <string name="pref_18_sure">sure</string>
+    <string name="pref_last_page">lastPage</string>
+    <string name="pref_release_show">showRelease3.2</string>
+    <string name="pref_release_note">file:///android_asset/release_3.2.html</string>
+    <string name="sureTxt">I am above 18 years old and agree on the above claims.</string>
+    <string name="beautyPic">Picture</string>
+    <string name="downloadSingleImaage">Download this single image</string>
+    <string name="downloadAllImaage">Download all images on this page</string>
+    <string name="saveThisLink">Save this link</string>
+    <string name="saveLiknInclNextLevel">Save this link include next level links</string>
+    <string name="browseFavorite">Favorites</string>
+    <string name="isFavorite">Favorite</string>
+    <string name="sendEmail">Send E-mail</string>
+    <string name="copyEmailAddr">Copy E-mail Address</string>
+    <string name="addLinkFavorite">Add this link to my favorite</string>
+    <string name="addLinkFavoriteSuccess">Success to add this link to my favorite</string>
+    <string name="addLinkFavoriteFail">Failed to add this link to my favorite</string>
+    <string name="sendImageByMms">Share this image with friends</string>
+    <string name="sendMmsSubject">Please send me an account for Series 4 - 7</string>
+    <string name="sendMmsBody">Please send me an account for Series 4 - 7. \nFrom Daily Hot Beauty</string>
+    <string name="startDownload">Starting to download...</string>
+    <string name="stopDownload">Finished to download...</string>
+    <string name="noImages">Sorry, no images in the thread. Try another, please.</string>
+    <string name="waitOriginal">Still downloading the original bigger image, please wait a moment...</string>
+    <string name="failDownload">Failed to download the image for %1$s</string>
+    <string name="alreadyFirst">Already to the first image...</string>
+    <string name="alreadyLast">Already to the last image...</string>
+    <string name="alreadyFirstPost">Already to the first post...</string>
+    <string name="alreadyLastPost">Already to the last post...</string>
+    <string name="waitTitle">Update of the post list</string>
+	<string name="wait">Still downloading the post list, please wait a moment...</string>
+	<string name="waitPostTitle">Download</string>
+	<string name="waitPost">Still downloading the post, please wait a moment...</string>
+	<string name="more">More post ...</string>
+	<string name="addFavoriteSuccess">The post was added into your favorites.</string>
+	<string name="resetSuccess">Success to refresh the list.</string>
+	<string name="resetFail">Failed to refresh the list.</string>
+	<string name="isCached">Set to use cache.</string>
+	<string name="isNotCached">Set to NO use cache.</string>
+	<string name="cached">Cache</string>
+	<string name="noCached">No Cache</string>
+	<string name="grid">Grid</string>
+	<string name="list">List</string>
+	<string name="setting">Setting</string>
+	<string name="account">Account:</string>
+	<string name="password">Password:</string>
+	<string name="save">Save</string>
+	<string name="getAccount">Get a Free Account by E-mail</string>
+	<string name="saveSuccess">Account was saved successfully.</string>
+	<string name="accountTitle">Account settings for series 4 - 7</string>
+	<string name="accountReminder">you need to set Account for series 4 - 7 on menu "Settings" that will bring you more images.</string>
+    <string-array name="source">
+		<item>Select one series ...</item>
+		<item>Series 1 (Nude)</item>
+		<item>Series 2 (Nude)</item>
+		<item>Series 3 (Nude)</item>
+		<item>Series 4 (Nude | Porn)</item>
+		<item>Series 5 (Nude | Album)</item>
+		<item>Series 6 (Nude | Peep)</item>
+		<item>Series 7 (Nude | Comic)</item>
+		<item>Series 8</item>
+		<item>Series 9</item>
+		<item>Series 10</item>
+		<item>Series 11</item>
+		<item>Series 12 (Large)</item>
+		<item>Series 13</item>
+	</string-array>
+</resources>
